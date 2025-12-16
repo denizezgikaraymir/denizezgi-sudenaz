@@ -1,4 +1,4 @@
-# Socket Programming Assignment - Minimal Python Implementation
+# Socket Programming Assignment - Python Implementation
 
 Bu proje, atanan ödevin temel bir uygulamasıdır: Client1 (gönderici), Server (aracı & veriyi bozucu), Client2 (alıcı & hata denetleyici).
 
