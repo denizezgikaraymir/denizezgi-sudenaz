@@ -4,7 +4,7 @@ Bu proje, atanan ödevin temel bir uygulamasıdır: Client1 (gönderici), Server
 
 Özellikler
 - Kontrol yöntemleri: parity (byte başına), 2D parity, CRC16-CCITT, Hamming(7,4) (nibble bazlı), IP checksum
-- Sunucu çeşitli hata enjektasyon modları sunar: none, bitflip, subst, delete, insert, swap, multibit, burst
+- Sunucu çeşitli hata enjektasyon modları sunar
 
 Çalıştırma (terminal)
 1. Server'ı başlatın (örnek port 9000, injection=bitflip):
@@ -26,6 +26,6 @@ Notlar / Geliştirme
 - 2D parity, row/col paritelerini basit string formatında geri döner. 
 - Hamming burada 7,4 için nibble başına parity hesaplar (tam Hamming kodlama/decoding değil; kontrol bitleri üretilir).
 - CRC16-CCITT kullanıldı (poly 0x1021, init 0xFFFF).
-- 
+  
 
 
