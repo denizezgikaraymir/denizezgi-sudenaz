@@ -23,12 +23,9 @@ Proje akışı
 - Client2 gelen paketi alır, aynı yöntemi kullanarak kontrol bits/özet hesaplar ve gelen ile karşılaştırır; sonucu ekrana yazar.
 
 Notlar / Geliştirme
-- 2D parity, row/col paritelerini basit string formatında geri döner. Daha detaylı bir format isterseniz JSON’a çevirebilirim.
+- 2D parity, row/col paritelerini basit string formatında geri döner. 
 - Hamming burada 7,4 için nibble başına parity hesaplar (tam Hamming kodlama/decoding değil; kontrol bitleri üretilir).
 - CRC16-CCITT kullanıldı (poly 0x1021, init 0xFFFF).
-- İsteğe göre paket yapısını sıkılaştırıp (ör. length prefix, JSON) güvenliği ve dayanıklılığı artırabilirim.
+- 
 
-İlerleyiş için öneri
-- Test senaryoları (otomatik): farklı injection oranlarıyla test scriptleri ekleyebilirim.
-- Daha fazla CRC çeşidi veya Hamming(8,4) gibi varyantlar ekleyebilirim.
-- Paket formatı JSON yapılabilir ve socket iletişimine uzunluk başlığı eklenebilir.
+
